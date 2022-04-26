@@ -10,6 +10,7 @@ public class Test : MonoBehaviour
     UpDownCasting upDownCasting;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,10 +46,20 @@ public class Test : MonoBehaviour
         avrelshaja.Talk();
         avrelshaja.Move();
         avrelshaja.UseEnemySkill();
+
+        UseableSkill useableSkill;
+
+
+        useableSkill = GameObject.FindGameObjectWithTag("Player").GetComponent<CallInterface>();
+        useableSkill.UseSkill();
+
+        useableSkill = FindObjectOfType<CallInterface>();
+        useableSkill.UseSkill();
+
     }
 
 
-    
+
 
     private void Upcasting()
     {
