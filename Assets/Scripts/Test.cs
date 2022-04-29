@@ -50,12 +50,6 @@ public class Test : MonoBehaviour
         UseableSkill useableSkill;
 
 
-        useableSkill = GameObject.FindGameObjectWithTag("Player").GetComponent<CallInterface>();
-        useableSkill.UseSkill();
-
-        useableSkill = FindObjectOfType<CallInterface>();
-        useableSkill.UseSkill();
-
     }
 
 
