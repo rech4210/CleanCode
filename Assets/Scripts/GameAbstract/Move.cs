@@ -16,7 +16,7 @@ public class Move : MonoBehaviour
 
     bool jumpstate = false;
 
-    private Dictionary<KeyCode, Vector2> keyValuePairs = new Dictionary<KeyCode, Vector2>();
+    private Dictionary<KeyCode, Vector3> keyValuePairs = new Dictionary<KeyCode, Vector3>();
 
     void Start()
     {
