@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 294963108}
   - component: {fileID: 294963109}
   m_Layer: 0
-  m_Name: Interface,Instanciate,abstract
+  m_Name: Interface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -425,25 +425,25 @@ MonoBehaviour:
   - {fileID: 72672583}
   - {fileID: 387126521}
   - {fileID: 1762148953}
-  myData:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  gravityfool:
+  - mass: 0
+    drag: 0
+    angular: 0
+  - mass: 0
+    drag: 0
+    angular: 0
+  - mass: 0
+    drag: 0
+    angular: 0
+  - mass: 0
+    drag: 0
+    angular: 0
+  - mass: 0
+    drag: 0
+    angular: 0
+  - mass: 0
+    drag: 0
+    angular: 0
 --- !u!1 &387126521
 GameObject:
   m_ObjectHideFlags: 0
