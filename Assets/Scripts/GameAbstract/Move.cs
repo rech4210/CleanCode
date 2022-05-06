@@ -56,9 +56,8 @@ public class Move : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && jumpstate == true)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            jumpstate = !jumpstate;
             Myrigid.AddForce(Vector3.up * _JumpPower, ForceMode.Impulse); // 어느 방향으로 이동할지
         }
 

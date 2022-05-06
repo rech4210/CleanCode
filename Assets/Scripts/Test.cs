@@ -14,40 +14,40 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Initialize();
-        int a = upDownCasting.number;
+        //Initialize();
+        //int a = upDownCasting.number;
 
-        Upcasting();
-        Downcasting();
-        Updowncasting();
-        Debug.Log(a + " 업캐스팅의 생성자 넘버"); // 5 예상
+        //Upcasting();
+        //Downcasting();
+        //Updowncasting();
+        //Debug.Log(a + " 업캐스팅의 생성자 넘버"); // 5 예상
 
-        Soceriss baegi = new Soceriss("덜꼬인꽈배기", 100, 20);
-        baegi.Move();
-        baegi.Talk();
-        baegi.UseSkill();
+        //Soceriss baegi = new Soceriss("덜꼬인꽈배기", 100, 20);
+        //baegi.Move();
+        //baegi.Talk();
+        //baegi.UseSkill();
 
-        HolyKnight gaji = new HolyKnight("맛있는가지구이", 200, 10);
-        gaji.Move();
-        gaji.Talk();
-        gaji.UseSkill();
+        //HolyKnight gaji = new HolyKnight("맛있는가지구이", 200, 10);
+        //gaji.Move();
+        //gaji.Talk();
+        //gaji.UseSkill();
 
-        LaHart laHart = new LaHart("라하르트", 250, 10);
-        laHart.Move();
-        laHart.Talk();
-        laHart.Script();
+        //LaHart laHart = new LaHart("라하르트", 250, 10);
+        //laHart.Move();
+        //laHart.Talk();
+        //laHart.Script();
 
-        Orc grak = new Orc("그라카르", 500, 25);
-        grak.Talk();
-        grak.Move();
-        grak.UseEnemySkill();
+        //Orc grak = new Orc("그라카르", 500, 25);
+        //grak.Talk();
+        //grak.Move();
+        //grak.UseEnemySkill();
 
-        Demon avrelshaja = new Demon("아브렐슈드", 1000, 5);
-        avrelshaja.Talk();
-        avrelshaja.Move();
-        avrelshaja.UseEnemySkill();
+        //Demon avrelshaja = new Demon("아브렐슈드", 1000, 5);
+        //avrelshaja.Talk();
+        //avrelshaja.Move();
+        //avrelshaja.UseEnemySkill();
 
-        UseableSkill useableSkill;
+        //UseableSkill useableSkill;
 
 
     }

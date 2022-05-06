@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 public class TestDictionary : MonoBehaviour
 {
+    int a, b, c, d;
     Dictionary<KeyCode, int> testDictionary = new Dictionary<KeyCode, int>
     {
         { KeyCode.A,1 },{ KeyCode.S,2 },{ KeyCode.D,3 }
@@ -26,17 +27,24 @@ public class TestDictionary : MonoBehaviour
     private void A()
     {
         int a = 1;
+        this.a = a;
     }
     private void B()
     {
         int b = 2;
+        this.b = b;
+
     }
     private void C()
     {
         int c = 3;
+        this.c = c;
+
     }
     private void D()
     {
         int d = 4;
+        this.d = d;
+
     }
 }
