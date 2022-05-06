@@ -51,10 +51,10 @@ public class Ramda : MonoBehaviour
 
     private void Update()
     {
-        find(man);
+        //find(man);
 
-        Debug.Log(kill(man, 15));
+        //Debug.Log(kill(man, 15));
 
-        Debug.Log(kill(woman, killcount));
+        //Debug.Log(kill(woman, killcount));
     }
 }
