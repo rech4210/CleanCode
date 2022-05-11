@@ -21,6 +21,7 @@ public struct Mygravity
 
 public class GravityTest : MonoBehaviour
 {
+    
     List<Rigidbody> rigidbody_list = new List<Rigidbody>();
 
     public GameObject[] GravityTools;

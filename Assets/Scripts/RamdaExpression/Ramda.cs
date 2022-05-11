@@ -22,10 +22,10 @@ public class Ramda : MonoBehaviour
         find += FindWoman;
         Debug.Log(find);
 
-        find += (string findman) => { Debug.Log("Find" + findman); Debug.Log("찾기" + findman); };// ���ٽ��� �̿��� ��������Ʈ �Ｎ ���� �Ű����� ���� ����
+        find += (string findman) => { Debug.Log("Find" + findman); Debug.Log("찾기" + findman); };// 델리게이트 부착 람다식표현
 
 
-        kill += (string killman, int count) => (killman + "가" + count + "잡았습니다"); Debug.Log("만세"); // �Ű������� �ΰ� �̻��� ��쿡 ����ϴ� ���ٽ�
+        kill += (string killman, int count) => (killman + "가" + count + "잡았습니다"); Debug.Log("만세");
 
     }
 
@@ -38,15 +38,16 @@ public class Ramda : MonoBehaviour
     {
         this.health += health;
     }
-    public void RestoreHealth_ramda(int health) => this.health += health; //람다 메소드
+
+    public void RestoreHealth_ramda(int health) => this.health = health; // 람다 메소드
 
     public int hp // 기존 프로퍼티
     {
         get { return health; }
-        set { health = 10; }
+        set { health += 10; }
     }
 
-    public int hp_ramda { get => health; set => health = 10;} //람다 프로퍼티
+    public int hp_ramda { get => health; set => health +=+10;} // 람다 프로퍼티
 
 
     private void Update()
