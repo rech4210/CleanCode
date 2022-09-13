@@ -65,6 +65,7 @@ public class Move : MonoBehaviour
 
     void vector_Normalized(Vector3 vector3)
     {
+
         normalizedVector = vector3.normalized * _MovePower * Time.deltaTime; //대각선 움직임을 부드럽게 하기위한 벡터 노말라이즈 과정
         Mytransform += normalizedVector;
         Myrigid.MovePosition(Mytransform);
